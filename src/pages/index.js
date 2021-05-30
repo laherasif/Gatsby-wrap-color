@@ -1,14 +1,7 @@
 import React from "react"
 
 const Home = () => {
-  if (window.console && typeof console.log === 'function') {
-    window.addEventListener('setIframeHeight:shrinked', function (e) {
-          console.log('iframe shrinked', e.detail);
-      });
-      window.addEventListener('setIframeHeight:enlarged', function (e) {
-            console.log('iframe enlarged', e.detail);
-        });
-    }
+  
   return(
     <div
     style={{
