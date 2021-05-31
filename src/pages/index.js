@@ -14,7 +14,7 @@ const Home = () => {
   >
     <div>
       <h2>Task 4 : Ifram with wrap colors</h2>
-      <iframe src="/test.html" title="dummy" style={{width:'800px',height:'600px'}}></iframe>
+      <iframe src="/test.html" title="dummy" style={{width:'100%'}}></iframe>
     </div>
    
   </div>
